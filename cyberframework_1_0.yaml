@@ -1,0 +1,2197 @@
+- id: ID
+  name: IDENTIFY
+  type: function
+  categories:
+  - id: ID.AM
+    name: Asset Management
+    type: category
+    description: The data, personnel, devices, systems, and facilities that enable
+      the organization to achieve business purposes are identified and managed consistent
+      with their relative importance to business objectives and the organization’s
+      risk strategy.
+    subcategories:
+    - id: ID.AM-1
+      type: subcategory
+      description: Physical devices and systems within the organization are inventoried
+      references:
+      - standard: CCS CSC
+        controls:
+        - '1'
+      - standard: COBIT 5
+        controls:
+        - BAI09.01
+        - BAI09.02
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.2.3.4
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 7.8
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.8.1.1
+        - A.8.1.2
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CM-8
+    - id: ID.AM-2
+      type: subcategory
+      description: Software platforms and applications within the organization are
+        inventoried
+      references:
+      - standard: CCS CSC
+        controls:
+        - '2'
+      - standard: COBIT 5
+        controls:
+        - BAI09.01
+        - BAI09.02
+        - BAI09.05
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.2.3.4
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 7.8
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.8.1.1
+        - A.8.1.2
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CM-8
+    - id: ID.AM-3
+      type: subcategory
+      description: Organizational communication and data flows are mapped
+      references:
+      - standard: CCS CSC
+        controls:
+        - '1'
+      - standard: COBIT 5
+        controls:
+        - DSS05.02
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.2.3.4
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.13.2.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AC-4
+        - CA-3
+        - CA-9
+        - PL-8
+    - id: ID.AM-4
+      type: subcategory
+      description: External information systems are catalogued
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO02.02
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.11.2.6
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AC-20
+        - SA-9
+    - id: ID.AM-5
+      type: subcategory
+      description: 'Resources (e.g., hardware, devices, data, and software) are prioritized
+        based on their classification, criticality, and business value '
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO03.03
+        - APO03.04
+        - BAI09.02
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.2.3.6
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.8.2.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-2
+        - RA-2
+        - SA-14
+    - id: ID.AM-6
+      type: subcategory
+      description: Cybersecurity roles and responsibilities for the entire workforce
+        and third-party stakeholders (e.g., suppliers, customers, partners) are established
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO01.02
+        - DSS06.03
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.2.3.3
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.6.1.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-2
+        - PS-7
+        - PM-11
+  - id: ID.BE
+    name: Business Environment
+    type: category
+    description: The organization’s mission, objectives, stakeholders, and activities
+      are understood and prioritized; this information is used to inform cybersecurity
+      roles, responsibilities, and risk management decisions.
+    subcategories:
+    - id: ID.BE-1
+      type: subcategory
+      description: The organization’s role in the supply chain is identified and communicated
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO08.04
+        - APO08.05
+        - APO10.03
+        - APO10.04
+        - APO10.05
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.15.1.3
+        - A.15.2.1
+        - A.15.2.2
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-2
+        - SA-12
+    - id: ID.BE-2
+      type: subcategory
+      description: The organization’s place in critical infrastructure and its industry
+        sector is identified and communicated
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO02.06
+        - APO03.01
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - PM-8
+    - id: ID.BE-3
+      type: subcategory
+      description: Priorities for organizational mission, objectives, and activities
+        are established and communicated
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO02.01
+        - APO02.06
+        - APO03.01
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.2.2.1
+        - 4.2.3.6
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - PM-11
+        - SA-14
+    - id: ID.BE-4
+      type: subcategory
+      description: Dependencies and critical functions for delivery of critical services
+        are established
+      references:
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.11.2.2
+        - A.11.2.3
+        - A.12.1.3
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-8
+        - PE-9
+        - PE-11
+        - PM-8
+        - SA-14
+    - id: ID.BE-5
+      type: subcategory
+      description: Resilience requirements to support delivery of critical services
+        are established
+      references:
+      - standard: COBIT 5
+        controls:
+        - DSS04.02
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.11.1.4
+        - A.17.1.1
+        - A.17.1.2
+        - A.17.2.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-2
+        - CP-11
+        - SA-14
+  - id: ID.GV
+    name: Governance
+    type: category
+    description: The policies, procedures, and processes to manage and monitor the
+      organization’s regulatory, legal, risk, environmental, and operational requirements
+      are understood and inform the management of cybersecurity risk.
+    subcategories:
+    - id: ID.GV-1
+      type: subcategory
+      description: Organizational information security policy is established
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO01.03
+        - EDM01.01
+        - EDM01.02
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.2.6
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.5.1.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - -1 controls from all families
+    - id: ID.GV-2
+      type: subcategory
+      description: Information security roles & responsibilities are coordinated and
+        aligned with internal roles and external partners
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO13.12
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.2.3.3
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.6.1.1
+        - A.7.2.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - PM-1
+        - PS-7
+    - id: ID.GV-3
+      type: subcategory
+      description: Legal and regulatory requirements regarding cybersecurity, including
+        privacy and civil liberties obligations, are understood and managed
+      references:
+      - standard: COBIT 5
+        controls:
+        - MEA03.01
+        - MEA03.04
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.4.3.7
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.18.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - -1 controls from all families (except PM-1)
+    - id: ID.GV-4
+      type: subcategory
+      description: Governance and risk management processes address cybersecurity
+        risks
+      references:
+      - standard: COBIT 5
+        controls:
+        - DSS04.02
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.2.3.1
+        - 4.2.3.3
+        - 4.2.3.8
+        - 4.2.3.9
+        - 4.2.3.11
+        - 4.3.2.4.3
+        - 4.3.2.6.3
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - PM-9
+        - PM-11
+  - id: ID.RA
+    name: Risk Assessment
+    type: category
+    description: The organization understands the cybersecurity risk to organizational
+      operations (including mission, functions, image, or reputation), organizational
+      assets, and individuals.
+    subcategories:
+    - id: ID.RA-1
+      type: subcategory
+      description: Asset vulnerabilities are identified and documented
+      references:
+      - standard: CCS CSC
+        controls:
+        - '4'
+      - standard: COBIT 5
+        controls:
+        - APO12.01
+        - APO12.02
+        - APO12.03
+        - APO12.04
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.2.3
+        - 4.2.3.7
+        - 4.2.3.9
+        - 4.2.3.12
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.12.6.1
+        - A.18.2.3
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CA-2
+        - CA-7
+        - CA-8
+        - RA-3
+        - RA-5
+        - SA-5
+        - SA-11
+        - SI-2
+        - SI-4
+        - SI-5
+    - id: ID.RA-2
+      type: subcategory
+      description: Threat and vulnerability information is received from information
+        sharing forums and sources
+      references:
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.2.3
+        - 4.2.3.9
+        - 4.2.3.12
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.6.1.4
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - PM-15
+        - PM-16
+        - SI-5
+    - id: ID.RA-3
+      type: subcategory
+      description: Threats, both internal and external, are identified and documented
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO12.01
+        - APO12.02
+        - APO12.03
+        - APO12.04
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.2.3
+        - 4.2.3.9
+        - 4.2.3.12
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - RA-3
+        - SI-5
+        - PM-12
+        - PM-16
+    - id: ID.RA-4
+      type: subcategory
+      description: Potential business impacts and likelihoods are identified
+      references:
+      - standard: COBIT 5
+        controls:
+        - DSS04.02
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.2.3
+        - 4.2.3.9
+        - 4.2.3.12
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - RA-2
+        - RA-3
+        - PM-9
+        - PM-11
+        - SA-14
+    - id: ID.RA-5
+      type: subcategory
+      description: Threats, vulnerabilities, likelihoods, and impacts are used to
+        determine risk
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO12.02
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.12.6.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - RA-2
+        - RA-3
+        - PM-16
+    - id: ID.RA-6
+      type: subcategory
+      description: Risk responses are identified and prioritized
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO12.05
+        - APO13.02
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - PM-4
+        - PM-9
+  - id: ID.RM
+    name: Risk Management Strategy
+    type: category
+    description: The organization’s priorities, constraints, risk tolerances, and
+      assumptions are established and used to support operational risk decisions.
+    subcategories:
+    - id: ID.RM-1
+      type: subcategory
+      description: Risk management processes are established, managed, and agreed
+        to by organizational stakeholders
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO12.04
+        - APO12.05
+        - APO13.02
+        - BAI02.03
+        - BAI04.02
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.2
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - PM-9
+    - id: ID.RM-2
+      type: subcategory
+      description: Organizational risk tolerance is determined and clearly expressed
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO12.06
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.2.6.5
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - PM-9
+    - id: ID.RM-3
+      type: subcategory
+      description: The organization’s determination of risk tolerance is informed
+        by its role in critical infrastructure and sector specific risk analysis
+      references:
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - PM-8
+        - PM-9
+        - PM-11
+        - SA-14
+- id: PR
+  name: PROTECT
+  type: function
+  categories:
+  - id: PR.AC
+    name: Access Control
+    type: category
+    description: Access to assets and associated facilities is limited to authorized
+      users, processes, or devices, and to authorized activities and transactions.
+    subcategories:
+    - id: PR.AC-1
+      type: subcategory
+      description: Identities and credentials are managed for authorized devices and
+        users
+      references:
+      - standard: CCS CSC
+        controls:
+        - '16'
+      - standard: COBIT 5
+        controls:
+        - DSS05.04
+        - DSS06.03
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.3.5.1
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 1.1
+        - SR 1.2
+        - SR 1.3
+        - SR 1.4
+        - SR 1.5
+        - SR 1.7
+        - SR 1.8
+        - SR 1.9
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.9.2.1
+        - A.9.2.2
+        - A.9.2.4
+        - A.9.3.1
+        - A.9.4.2
+        - A.9.4.3
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AC-2
+        - IA Family
+    - id: PR.AC-2
+      type: subcategory
+      description: Physical access to assets is managed and protected
+      references:
+      - standard: COBIT 5
+        controls:
+        - DSS01.04
+        - DSS05.05
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.3.3.2
+        - 4.3.3.3.8
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.11.1.1
+        - A.11.1.2
+        - A.11.1.4
+        - A.11.1.6
+        - A.11.2.3
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - PE-2
+        - PE-3
+        - PE-4
+        - PE-5
+        - PE-6
+        - PE-9
+    - id: PR.AC-3
+      type: subcategory
+      description: Remote access is managed
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO13.01
+        - DSS01.04
+        - DSS05.03
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.3.6.6
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 1.13
+        - SR 2.6
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.6.2.2
+        - A.13.1.1
+        - A.13.2.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AC‑17
+        - AC-19
+        - AC-20
+    - id: PR.AC-4
+      type: subcategory
+      description: Access permissions are managed, incorporating the principles of
+        least privilege and separation of duties
+      references:
+      - standard: CCS CSC
+        controls:
+        - '12'
+        - '15'
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.3.7.3
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 2.1
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.6.1.2
+        - A.9.1.2
+        - A.9.2.3
+        - A.9.4.1
+        - A.9.4.4
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AC-2
+        - AC-3
+        - AC-5
+        - AC-6
+        - AC-16
+    - id: PR.AC-5
+      type: subcategory
+      description: Network integrity is protected, incorporating network segregation
+        where appropriate
+      references:
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.3.4
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 3.1
+        - SR 3.8
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.13.1.1
+        - A.13.1.3
+        - A.13.2.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AC-4
+        - SC-7
+  - id: PR.AT
+    name: Awareness and Training
+    type: category
+    description: The organization’s personnel and partners are provided cybersecurity
+      awareness education and are adequately trained to perform their information
+      security-related duties and responsibilities consistent with related policies,
+      procedures, and agreements.
+    subcategories:
+    - id: PR.AT-1
+      type: subcategory
+      description: 'All users are informed and trained '
+      references:
+      - standard: CCS CSC
+        controls:
+        - '9'
+      - standard: COBIT 5
+        controls:
+        - APO07.03
+        - BAI05.07
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.2.4.2
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.7.2.2
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AT-2
+        - PM-13
+    - id: PR.AT-2
+      type: subcategory
+      description: 'Privileged users understand roles & responsibilities '
+      references:
+      - standard: CCS CSC
+        controls:
+        - '9'
+      - standard: COBIT 5
+        controls:
+        - APO07.02
+        - DSS06.03
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.2.4.2
+        - 4.3.2.4.3
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.6.1.1
+        - A.7.2.2
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AT-3
+        - PM-13
+    - id: PR.AT-3
+      type: subcategory
+      description: 'Third-party stakeholders (e.g., suppliers, customers, partners)
+        understand roles & responsibilities '
+      references:
+      - standard: CCS CSC
+        controls:
+        - '9'
+      - standard: COBIT 5
+        controls:
+        - APO07.03
+        - APO10.04
+        - APO10.05
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.2.4.2
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.6.1.1
+        - A.7.2.2
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - PS-7
+        - SA-9
+    - id: PR.AT-4
+      type: subcategory
+      description: 'Senior executives understand roles & responsibilities '
+      references:
+      - standard: CCS CSC
+        controls:
+        - '9'
+      - standard: COBIT 5
+        controls:
+        - APO07.03
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.2.4.2
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.6.1.1
+        - A.7.2.2
+        - ''
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AT-3
+        - PM-13
+    - id: PR.AT-5
+      type: subcategory
+      description: 'Physical and information security personnel understand roles &
+        responsibilities '
+      references:
+      - standard: CCS CSC
+        controls:
+        - '9'
+      - standard: COBIT 5
+        controls:
+        - APO07.03
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.2.4.2
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.6.1.1
+        - A.7.2.2
+        - ''
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AT-3
+        - PM-13
+  - id: PR.DS
+    name: Data Security
+    type: category
+    description: Information and records (data) are managed consistent with the organization’s
+      risk strategy to protect the confidentiality, integrity, and availability of
+      information.
+    subcategories:
+    - id: PR.DS-1
+      type: subcategory
+      description: Data-at-rest is protected
+      references:
+      - standard: CCS CSC
+        controls:
+        - '17'
+      - standard: COBIT 5
+        controls:
+        - APO01.06
+        - BAI02.01
+        - BAI06.01
+        - DSS06.06
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 3.4
+        - SR 4.1
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.8.2.3
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - SC-28
+    - id: PR.DS-2
+      type: subcategory
+      description: Data-in-transit is protected
+      references:
+      - standard: CCS CSC
+        controls:
+        - '17'
+      - standard: COBIT 5
+        controls:
+        - APO01.06
+        - DSS06.06
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 3.1
+        - SR 3.8
+        - SR 4.1
+        - SR 4.2
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.8.2.3
+        - A.13.1.1
+        - A.13.2.1
+        - A.13.2.3
+        - A.14.1.2
+        - A.14.1.3
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - SC-8
+    - id: PR.DS-3
+      type: subcategory
+      description: Assets are formally managed throughout removal, transfers, and
+        disposition
+      references:
+      - standard: COBIT 5
+        controls:
+        - BAI09.03
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4. 4.3.3.3.9
+        - 4.3.4.4.1
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 4.2
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.8.2.3
+        - A.8.3.1
+        - A.8.3.2
+        - A.8.3.3
+        - A.11.2.7
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CM-8
+        - MP-6
+        - PE-16
+    - id: PR.DS-4
+      type: subcategory
+      description: Adequate capacity to ensure availability is maintained
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO13.01
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 7.1
+        - SR 7.2
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.12.3.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AU-4
+        - CP-2
+        - SC-5
+    - id: PR.DS-5
+      type: subcategory
+      description: Protections against data leaks are implemented
+      references:
+      - standard: CCS CSC
+        controls:
+        - '17'
+      - standard: COBIT 5
+        controls:
+        - APO01.06
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 5.2
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.6.1.2
+        - A.7.1.1
+        - A.7.1.2
+        - A.7.3.1
+        - A.8.2.2
+        - A.8.2.3
+        - A.9.1.1
+        - A.9.1.2
+        - A.9.2.3
+        - A.9.4.1
+        - A.9.4.4
+        - A.9.4.5
+        - A.13.1.3
+        - A.13.2.1
+        - A.13.2.3
+        - A.13.2.4
+        - A.14.1.2
+        - A.14.1.3
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AC-4
+        - AC-5
+        - AC-6
+        - PE-19
+        - PS-3
+        - PS-6
+        - SC-7
+        - SC-8
+        - SC-13
+        - SC-31
+        - SI-4
+    - id: PR.DS-6
+      type: subcategory
+      description: Integrity checking mechanisms are used to verify software, firmware,
+        and information integrity
+      references:
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 3.1
+        - SR 3.3
+        - SR 3.4
+        - SR 3.8
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.12.2.1
+        - A.12.5.1
+        - A.14.1.2
+        - A.14.1.3
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - SI-7
+    - id: PR.DS-7
+      type: subcategory
+      description: The development and testing environment(s) are separate from the
+        production environment
+      references:
+      - standard: COBIT 5
+        controls:
+        - BAI07.04
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.12.1.4
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CM-2
+  - id: PR.IP
+    name: Information Protection Processes and Procedures
+    type: category
+    description: Security policies (that address purpose, scope, roles, responsibilities,
+      management commitment, and coordination among organizational entities), processes,
+      and procedures are maintained and used to manage protection of information systems
+      and assets.
+    subcategories:
+    - id: PR.IP-1
+      type: subcategory
+      description: A baseline configuration of information technology/industrial control
+        systems is created and maintained
+      references:
+      - standard: CCS CSC
+        controls:
+        - '3'
+        - '10'
+      - standard: COBIT 5
+        controls:
+        - BAI10.01
+        - BAI10.02
+        - BAI10.03
+        - BAI10.05
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.3.2
+        - 4.3.4.3.3
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 7.6
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.12.1.2
+        - A.12.5.1
+        - A.12.6.2
+        - A.14.2.2
+        - A.14.2.3
+        - A.14.2.4
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CM-2
+        - CM-3
+        - CM-4
+        - CM-5
+        - CM-6
+        - CM-7
+        - CM-9
+        - SA-10
+    - id: PR.IP-2
+      type: subcategory
+      description: A System Development Life Cycle to manage systems is implemented
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO13.01
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.3.3
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.6.1.5
+        - A.14.1.1
+        - A.14.2.1
+        - A.14.2.5
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - SA-3
+        - SA-4
+        - SA-8
+        - SA-10
+        - SA-11
+        - SA-12
+        - SA-15
+        - SA-17
+        - PL-8
+    - id: PR.IP-3
+      type: subcategory
+      description: Configuration change control processes are in place
+      references:
+      - standard: COBIT 5
+        controls:
+        - BAI06.01
+        - BAI01.06
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.3.2
+        - 4.3.4.3.3
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 7.6
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.12.1.2
+        - A.12.5.1
+        - A.12.6.2
+        - A.14.2.2
+        - A.14.2.3
+        - A.14.2.4
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CM-3
+        - CM-4
+        - SA-10
+    - id: PR.IP-4
+      type: subcategory
+      description: Backups of information are conducted, maintained, and tested periodically
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO13.01
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.3.9
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 7.3
+        - SR 7.4
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.12.3.1
+        - A.17.1.2A.17.1.3
+        - A.18.1.3
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-4
+        - CP-6
+        - CP-9
+    - id: PR.IP-5
+      type: subcategory
+      description: Policy and regulations regarding the physical operating environment
+        for organizational assets are met
+      references:
+      - standard: COBIT 5
+        controls:
+        - DSS01.04
+        - DSS05.05
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.3.3.1 4.3.3.3.2
+        - 4.3.3.3.3
+        - 4.3.3.3.5
+        - 4.3.3.3.6
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.11.1.4
+        - A.11.2.1
+        - A.11.2.2
+        - A.11.2.3
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - PE-10
+        - PE-12
+        - PE-13
+        - PE-14
+        - PE-15
+        - PE-18
+    - id: PR.IP-6
+      type: subcategory
+      description: Data is destroyed according to policy
+      references:
+      - standard: COBIT 5
+        controls:
+        - BAI09.03
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.4.4
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 4.2
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.8.2.3
+        - A.8.3.1
+        - A.8.3.2
+        - A.11.2.7
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - MP-6
+    - id: PR.IP-7
+      type: subcategory
+      description: Protection processes are continuously improved
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO11.06
+        - DSS04.05
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.4.3.1
+        - 4.4.3.2
+        - 4.4.3.3
+        - 4.4.3.4
+        - 4.4.3.5
+        - 4.4.3.6
+        - 4.4.3.7
+        - 4.4.3.8
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CA-2
+        - CA-7
+        - CP-2
+        - IR-8
+        - PL-2
+        - PM-6
+    - id: PR.IP-8
+      type: subcategory
+      description: Effectiveness of protection technologies is shared with appropriate
+        parties
+      references:
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.16.1.6
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AC-21
+        - CA-7
+        - SI-4
+    - id: PR.IP-9
+      type: subcategory
+      description: Response plans (Incident Response and Business Continuity) and
+        recovery plans (Incident Recovery and Disaster Recovery) are in place and
+        managed
+      references:
+      - standard: COBIT 5
+        controls:
+        - DSS04.03
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.2.5.3
+        - 4.3.4.5.1
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.16.1.1
+        - A.17.1.1
+        - A.17.1.2
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-2
+        - IR-8
+    - id: PR.IP-10
+      type: subcategory
+      description: Response and recovery plans are tested
+      references:
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.2.5.7
+        - 4.3.4.5.11
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 3.3
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.17.1.3
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-4
+        - IR-3
+        - PM-14
+    - id: PR.IP-11
+      type: subcategory
+      description: Cybersecurity is included in human resources practices (e.g., deprovisioning,
+        personnel screening)
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO07.01
+        - APO07.02
+        - APO07.03
+        - APO07.04
+        - APO07.05
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.3.2.1
+        - 4.3.3.2.2
+        - 4.3.3.2.3
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.7.1.1
+        - A.7.3.1
+        - A.8.1.4
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - PS Family
+    - id: PR.IP-12
+      type: subcategory
+      description: A vulnerability management plan is developed and implemented
+      references:
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.12.6.1
+        - A.18.2.2
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - RA-3
+        - RA-5
+        - SI-2
+  - id: PR.MA
+    name: Maintenance
+    type: category
+    description: Maintenance and repairs of industrial control and information system
+      components is performed consistent with policies and procedures.
+    subcategories:
+    - id: PR.MA-1
+      type: subcategory
+      description: Maintenance and repair of organizational assets is performed and
+        logged in a timely manner, with approved and controlled tools
+      references:
+      - standard: COBIT 5
+        controls:
+        - BAI09.03
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.3.3.7
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.11.1.2
+        - A.11.2.4
+        - A.11.2.5
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - MA-2
+        - MA-3
+        - MA-5
+    - id: PR.MA-2
+      type: subcategory
+      description: Remote maintenance of organizational assets is approved, logged,
+        and performed in a manner that prevents unauthorized access
+      references:
+      - standard: COBIT 5
+        controls:
+        - DSS05.04
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.3.6.5
+        - 4.3.3.6.6
+        - 4.3.3.6.7
+        - 4.4.4.6.8
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.11.2.4
+        - A.15.1.1
+        - A.15.2.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - MA-4
+  - id: PR.PT
+    name: Protective Technology
+    type: category
+    description: Technical security solutions are managed to ensure the security and
+      resilience of systems and assets, consistent with related policies, procedures,
+      and agreements.
+    subcategories:
+    - id: PR.PT-1
+      type: subcategory
+      description: Audit/log records are determined, documented, implemented, and
+        reviewed in accordance with policy
+      references:
+      - standard: CCS CSC
+        controls:
+        - '14'
+      - standard: COBIT 5
+        controls:
+        - APO11.04
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.3.3.9
+        - 4.3.3.5.8
+        - 4.3.4.4.7
+        - 4.4.2.1
+        - 4.4.2.2
+        - 4.4.2.4
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 2.8
+        - SR 2.9
+        - SR 2.10
+        - SR 2.11
+        - SR 2.12
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.12.4.1
+        - A.12.4.2
+        - A.12.4.3
+        - A.12.4.4
+        - A.12.7.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AU Family
+    - id: PR.PT-2
+      type: subcategory
+      description: Removable media is protected and its use restricted according to
+        policy
+      references:
+      - standard: COBIT 5
+        controls:
+        - DSS05.02
+        - APO13.01
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 2.3
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.8.2.2
+        - A.8.2.3
+        - A.8.3.1
+        - A.8.3.3
+        - A.11.2.9
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - MP-2
+        - MP-4
+        - MP-5
+        - MP-7
+    - id: PR.PT-3
+      type: subcategory
+      description: Access to systems and assets is controlled, incorporating the principle
+        of least functionality
+      references:
+      - standard: COBIT 5
+        controls:
+        - DSS05.02
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.3.5.1
+        - 4.3.3.5.2
+        - 4.3.3.5.3
+        - 4.3.3.5.4
+        - 4.3.3.5.5
+        - 4.3.3.5.6
+        - 4.3.3.5.7
+        - 4.3.3.5.8
+        - 4.3.3.6.1
+        - 4.3.3.6.2
+        - 4.3.3.6.3
+        - 4.3.3.6.4
+        - 4.3.3.6.5
+        - 4.3.3.6.6
+        - 4.3.3.6.7
+        - 4.3.3.6.8
+        - 4.3.3.6.9
+        - 4.3.3.7.1
+        - 4.3.3.7.2
+        - 4.3.3.7.3
+        - 4.3.3.7.4
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 1.1
+        - SR 1.2
+        - SR 1.3
+        - SR 1.4
+        - SR 1.5
+        - SR 1.6
+        - SR 1.7
+        - SR 1.8
+        - SR 1.9
+        - SR 1.10
+        - SR 1.11
+        - SR 1.12
+        - SR 1.13
+        - SR 2.1
+        - SR 2.2
+        - SR 2.3
+        - SR 2.4
+        - SR 2.5
+        - SR 2.6
+        - SR 2.7
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.9.1.2
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AC-3
+        - CM-7
+    - id: PR.PT-4
+      type: subcategory
+      description: Communications and control networks are protected
+      references:
+      - standard: CCS CSC
+        controls:
+        - '7'
+      - standard: COBIT 5
+        controls:
+        - DSS05.02
+        - APO13.01
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 3.1
+        - SR 3.5
+        - SR 3.8
+        - SR 4.1
+        - SR 4.3
+        - SR 5.1
+        - SR 5.2
+        - SR 5.3
+        - SR 7.1
+        - SR 7.6
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.13.1.1
+        - A.13.2.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AC-4
+        - AC-17
+        - AC-18
+        - CP-8
+        - SC-7
+- id: DE
+  name: DETECT
+  type: function
+  categories:
+  - id: DE.AE
+    name: Anomalies and Events
+    type: category
+    description: Anomalous activity is detected in a timely manner and the potential
+      impact of events is understood.
+    subcategories:
+    - id: DE.AE-1
+      type: subcategory
+      description: A baseline of network operations and expected data flows for users
+        and systems is established and managed
+      references:
+      - standard: COBIT 5
+        controls:
+        - DSS03.01
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.4.3.3
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AC-4
+        - CA-3
+        - CM-2
+        - SI-4
+    - id: DE.AE-2
+      type: subcategory
+      description: Detected events are analyzed to understand attack targets and methods
+      references:
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.5.6
+        - 4.3.4.5.7
+        - 4.3.4.5.8
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 2.8
+        - SR 2.9
+        - SR 2.10
+        - SR 2.11
+        - SR 2.12
+        - SR 3.9
+        - SR 6.1
+        - SR 6.2
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.16.1.1
+        - A.16.1.4
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AU-6
+        - CA-7
+        - IR-4
+        - SI-4
+    - id: DE.AE-3
+      type: subcategory
+      description: Event data are aggregated and correlated from multiple sources
+        and sensors
+      references:
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 6.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AU-6
+        - CA-7
+        - IR-4
+        - IR-5
+        - IR-8
+        - SI-4
+    - id: DE.AE-4
+      type: subcategory
+      description: Impact of events is determined
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO12.06
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-2
+        - IR-4
+        - RA-3
+        - SI -4
+    - id: DE.AE-5
+      type: subcategory
+      description: Incident alert thresholds are established
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO12.06
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.2.3.10
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - IR-4
+        - IR-5
+        - IR-8
+  - id: DE.CM
+    name: Security Continuous Monitoring
+    type: category
+    description: The information system and assets are monitored at discrete intervals
+      to identify cybersecurity events and verify the effectiveness of protective
+      measures.
+    subcategories:
+    - id: DE.CM-1
+      type: subcategory
+      description: The network is monitored to detect potential cybersecurity events
+      references:
+      - standard: CCS CSC
+        controls:
+        - '14'
+        - '16'
+      - standard: COBIT 5
+        controls:
+        - DSS05.07
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 6.2
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AC-2
+        - AU-12
+        - CA-7
+        - CM-3
+        - SC-5
+        - SC-7
+        - SI-4
+    - id: DE.CM-2
+      type: subcategory
+      description: The physical environment is monitored to detect potential cybersecurity
+        events
+      references:
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.3.3.8
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CA-7
+        - PE-3
+        - PE-6
+        - PE-20
+    - id: DE.CM-3
+      type: subcategory
+      description: Personnel activity is monitored to detect potential cybersecurity
+        events
+      references:
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 6.2
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.12.4.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AC-2
+        - AU-12
+        - AU-13
+        - CA-7
+        - CM-10
+        - CM-11
+    - id: DE.CM-4
+      type: subcategory
+      description: Malicious code is detected
+      references:
+      - standard: CCS CSC
+        controls:
+        - '5'
+      - standard: COBIT 5
+        controls:
+        - DSS05.01
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.3.8
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 3.2
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.12.2.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - SI-3
+    - id: DE.CM-5
+      type: subcategory
+      description: Unauthorized mobile code is detected
+      references:
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 2.4
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.12.5.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - SC-18
+        - SI-4. SC-44
+    - id: DE.CM-6
+      type: subcategory
+      description: External service provider activity is monitored to detect potential
+        cybersecurity events
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO07.06
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.14.2.7
+        - A.15.2.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CA-7
+        - PS-7
+        - SA-4
+        - SA-9
+        - SI-4
+    - id: DE.CM-7
+      type: subcategory
+      description: Monitoring for unauthorized personnel, connections, devices, and
+        software is performed
+      references:
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AU-12
+        - CA-7
+        - CM-3
+        - CM-8
+        - PE-3
+        - PE-6
+        - PE-20
+        - SI-4
+    - id: DE.CM-8
+      type: subcategory
+      description: Vulnerability scans are performed
+      references:
+      - standard: COBIT 5
+        controls:
+        - BAI03.10
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.2.3.1
+        - 4.2.3.7
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.12.6.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - RA-5
+  - id: DE.DP
+    name: Detection Processes
+    type: category
+    description: Detection processes and procedures are maintained and tested to ensure
+      timely and adequate awareness of anomalous events.
+    subcategories:
+    - id: DE.DP-1
+      type: subcategory
+      description: Roles and responsibilities for detection are well defined to ensure
+        accountability
+      references:
+      - standard: CCS CSC
+        controls:
+        - '5'
+      - standard: COBIT 5
+        controls:
+        - DSS05.01
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.4.3.1
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.6.1.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CA-2
+        - CA-7
+        - PM-14
+    - id: DE.DP-2
+      type: subcategory
+      description: Detection activities comply with all applicable requirements
+      references:
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.4.3.2
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.18.1.4
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CA-2
+        - CA-7
+        - PM-14
+        - SI-4
+    - id: DE.DP-3
+      type: subcategory
+      description: Detection processes are tested
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO13.02
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.4.3.2
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 3.3
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.14.2.8
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CA-2
+        - CA-7
+        - PE-3
+        - PM-14
+        - SI-3
+        - SI-4
+    - id: DE.DP-4
+      type: subcategory
+      description: Event detection information is communicated to appropriate parties
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO12.06
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.5.9
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 6.1
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.16.1.2
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AU-6
+        - CA-2
+        - CA-7
+        - RA-5
+        - SI-4
+    - id: DE.DP-5
+      type: subcategory
+      description: Detection processes are continuously improved
+      references:
+      - standard: COBIT 5
+        controls:
+        - APO11.06
+        - DSS04.05
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.4.3.4
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.16.1.6
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CA-2
+        - CA-7
+        - PL-2
+        - RA-5
+        - SI-4
+        - PM-14
+- id: RS
+  name: RESPOND
+  type: function
+  categories:
+  - id: RS.RP
+    name: Response Planning
+    type: category
+    description: Response processes and procedures are executed and maintained, to
+      ensure timely response to detected cybersecurity events.
+    subcategories:
+    - id: RS.RP-1
+      type: subcategory
+      description: Response plan is executed during or after an event
+      references:
+      - standard: COBIT 5
+        controls:
+        - BAI01.10
+      - standard: CCS CSC
+        controls:
+        - '18'
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.5.1
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.16.1.5
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-2
+        - CP-10
+        - IR-4
+        - IR-8
+  - id: RS.CO
+    name: Communications
+    type: category
+    description: Response activities are coordinated with internal and external stakeholders,
+      as appropriate, to include external support from law enforcement agencies.
+    subcategories:
+    - id: RS.CO-1
+      type: subcategory
+      description: Personnel know their roles and order of operations when a response
+        is needed
+      references:
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.5.2
+        - 4.3.4.5.3
+        - 4.3.4.5.4
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.6.1.1
+        - A.16.1.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-2
+        - CP-3
+        - IR-3
+        - IR-8
+    - id: RS.CO-2
+      type: subcategory
+      description: Events are reported consistent with established criteria
+      references:
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.5.5
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.6.1.3
+        - A.16.1.2
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AU-6
+        - IR-6
+        - IR-8
+    - id: RS.CO-3
+      type: subcategory
+      description: Information is shared consistent with response plans
+      references:
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.5.2
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.16.1.2
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CA-2
+        - CA-7
+        - CP-2
+        - IR-4
+        - IR-8
+        - PE-6
+        - RA-5
+        - SI-4
+    - id: RS.CO-4
+      type: subcategory
+      description: Coordination with stakeholders occurs consistent with response
+        plans
+      references:
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.5.5
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-2
+        - IR-4
+        - IR-8
+    - id: RS.CO-5
+      type: subcategory
+      description: 'Voluntary information sharing occurs with external stakeholders
+        to achieve broader cybersecurity situational awareness '
+      references:
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - PM-15
+        - SI-5
+  - id: RS.AN
+    name: Analysis
+    type: category
+    description: Analysis is conducted to ensure adequate response and support recovery
+      activities.
+    subcategories:
+    - id: RS.AN-1
+      type: subcategory
+      description: Notifications from detection systems are investigated 
+      references:
+      - standard: COBIT 5
+        controls:
+        - DSS02.07
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.5.6
+        - 4.3.4.5.7
+        - 4.3.4.5.8
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 6.1
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.12.4.1
+        - A.12.4.3
+        - A.16.1.5
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AU-6
+        - CA-7
+        - IR-4
+        - IR-5
+        - PE-6
+        - SI-4
+    - id: RS.AN-2
+      type: subcategory
+      description: The impact of the incident is understood
+      references:
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.5.6
+        - 4.3.4.5.7
+        - 4.3.4.5.8
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.16.1.6
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-2
+        - IR-4
+    - id: RS.AN-3
+      type: subcategory
+      description: Forensics are performed
+      references:
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 2.8
+        - SR 2.9
+        - SR 2.10
+        - SR 2.11
+        - SR 2.12
+        - SR 3.9
+        - SR 6.1
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.16.1.7
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - AU-7
+        - IR-4
+    - id: RS.AN-4
+      type: subcategory
+      description: Incidents are categorized consistent with response plans
+      references:
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.5.6
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.16.1.4
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-2
+        - IR-4
+        - IR-5
+        - IR-8
+  - id: RS.MI
+    name: Mitigation
+    type: category
+    description: Activities are performed to prevent expansion of an event, mitigate
+      its effects, and eradicate the incident.
+    subcategories:
+    - id: RS.MI-1
+      type: subcategory
+      description: Incidents are contained
+      references:
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.5.6
+      - standard: ISA 62443-3-3:2013
+        controls:
+        - SR 5.1
+        - SR 5.2
+        - SR 5.4
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.16.1.5
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - IR-4
+    - id: RS.MI-2
+      type: subcategory
+      description: Incidents are mitigated
+      references:
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.5.6
+        - 4.3.4.5.10
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.12.2.1
+        - A.16.1.5
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - IR-4
+    - id: RS.MI-3
+      type: subcategory
+      description: Newly identified vulnerabilities are mitigated or documented as
+        accepted risks
+      references:
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.12.6.1
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CA-7
+        - RA-3
+        - RA-5
+  - id: RS.IM
+    name: Improvements
+    type: category
+    description: Organizational response activities are improved by incorporating
+      lessons learned from current and previous detection/response activities.
+    subcategories:
+    - id: RS.IM-1
+      type: subcategory
+      description: Response plans incorporate lessons learned
+      references:
+      - standard: COBIT 5
+        controls:
+        - BAI01.13
+      - standard: ISA 62443-2-1:2009
+        controls:
+        - 4.3.4.5.10
+        - 4.4.3.4
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.16.1.6
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-2
+        - IR-4
+        - IR-8
+    - id: RS.IM-2
+      type: subcategory
+      description: Response strategies are updated
+      references:
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-2
+        - IR-4
+        - IR-8
+- id: RC
+  name: RECOVER
+  type: function
+  categories:
+  - id: RC.RP
+    name: Recovery Planning
+    type: category
+    description: Recovery processes and procedures are executed and maintained to
+      ensure timely restoration of systems or assets affected by cybersecurity events.
+    subcategories:
+    - id: RC.RP-1
+      type: subcategory
+      description: Recovery plan is executed during or after an event
+      references:
+      - standard: CCS CSC
+        controls:
+        - '8'
+      - standard: COBIT 5
+        controls:
+        - DSS02.05
+        - DSS03.04
+      - standard: ISO/IEC 27001:2013
+        controls:
+        - A.16.1.5
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-10
+        - IR-4
+        - IR-8
+  - id: RC.IM
+    name: Improvements
+    type: category
+    description: Recovery planning and processes are improved by incorporating lessons
+      learned into future activities.
+    subcategories:
+    - id: RC.IM-1
+      type: subcategory
+      description: Recovery plans incorporate lessons learned
+      references:
+      - standard: COBIT 5
+        controls:
+        - BAI05.07
+      - standard: ISA 62443-2-1
+        controls:
+        - 4.4.3.4
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-2
+        - IR-4
+        - IR-8
+    - id: RC.IM-2
+      type: subcategory
+      description: Recovery strategies are updated
+      references:
+      - standard: COBIT 5
+        controls:
+        - BAI07.08
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-2
+        - IR-4
+        - IR-8
+  - id: RC.CO
+    name: Communications
+    type: category
+    description: Restoration activities are coordinated with internal and external
+      parties, such as coordinating centers, Internet Service Providers, owners of
+      attacking systems, victims, other CSIRTs, and vendors.
+    subcategories:
+    - id: RC.CO-1
+      type: subcategory
+      description: Public relations are managed
+      references:
+      - standard: COBIT 5
+        controls:
+        - EDM03.02
+    - id: RC.CO-2
+      type: subcategory
+      description: Reputation after an event is repaired
+      references:
+      - standard: COBIT 5
+        controls:
+        - MEA03.02
+    - id: RC.CO-3
+      type: subcategory
+      description: Recovery activities are communicated to internal stakeholders and
+        executive and management teams
+      references:
+      - standard: NIST SP 800-53 Rev. 4
+        controls:
+        - CP-2
+        - IR-4
+
